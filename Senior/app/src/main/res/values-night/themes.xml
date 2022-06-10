@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.VoiceCalculator" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="android:textColor">@color/PrimaryColor</item>
+        <item name="android:colorBackground">@color/SecondaryColor</item>
+        <item name="colorPrimary">@color/PrimaryColor</item>
+        <item name="colorOnPrimary">@color/SecondaryColor</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/SecondaryColor</item>
+    </style>
+</resources>
